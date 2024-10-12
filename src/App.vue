@@ -42,8 +42,6 @@ function completeTodo(todo: Todo) {
 }
 
 function add(todo: Todo) {
-  console.log(todo);
-
   todos.value.push(todo);
 }
 
