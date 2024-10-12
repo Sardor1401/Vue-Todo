@@ -2,8 +2,8 @@
 import { TrashIcon, PencilIcon } from "@heroicons/vue/24/solid";
 import { ref } from "vue";
 // Import the components
-import AddTodoForm from "./components/AddTodoForm.vue"; 
-import EditTodo from "./components/EditTodo.vue"; 
+import AddTodoForm from "./components/AddTodoForm.vue";
+import EditTodo from "./components/EditTodo.vue";
 
 export interface Todo {
   id: string;
